@@ -1,5 +1,5 @@
 FROM python:latest
-MAINTAINER Hanyu Xue 
+MAINTAINER Hanyu Xue <xuexhy@gmail.com>
 
 # Install node prereqs, nodejs and yarn
 # Ref: https://deb.nodesource.com/setup_8.x

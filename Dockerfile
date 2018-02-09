@@ -1,4 +1,4 @@
-FROM python:latest
+FROM 3.4.8-alpine
 MAINTAINER Hanyu Xue <xuexhy@gmail.com>
 
 # Install node prereqs, nodejs and yarn
@@ -14,4 +14,5 @@ RUN \
   wget -qO- https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
   apt-get update && \
   apt-get install -yqq nodejs yarn && \
+  pip install awscli && \
   rm -rf /var/lib/apt/lists/*

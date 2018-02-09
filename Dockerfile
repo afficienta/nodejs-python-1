@@ -1,4 +1,4 @@
-FROM 3.4.8-alpine
+FROM python:latest
 MAINTAINER Hanyu Xue <xuexhy@gmail.com>
 
 # Install node prereqs, nodejs and yarn

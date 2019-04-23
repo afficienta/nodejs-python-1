@@ -16,3 +16,7 @@ RUN \
   apt-get install -yqq nodejs yarn && \
   pip install awscli && \
   rm -rf /var/lib/apt/lists/*
+COPY . .
+
+RUN chmod 755 ossutil64
+
